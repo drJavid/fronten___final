@@ -1,0 +1,233 @@
+#welcome{
+	background: #084884;
+	color:#a5d4ff;
+	padding: 12px 0px;
+
+i{
+    font-size: 18px;
+    line-height: 39px;
+    cursor: pointer;
+    padding: 0 8px;
+
+    &:hover{
+    	color: white;
+    	 transition: all .5s ease;
+    }
+
+}
+button{
+	border-radius: 50px;
+	background: #42a4ff;
+	color: white;
+	border:none;
+	padding: 8px 36px;
+    font-size: 12px;
+        letter-spacing: .02em;
+        line-height: 1.57143;
+        
+	&:hover{
+		background:#91baff;
+		 transition: all .5s ease;
+
+		}
+
+	}	p{
+		font-size: 14px;
+		line-height: 29px;
+	}
+}
+
+
+
+body{
+	padding-bottom: 500px;
+}
+
+
+#contact{
+	background: #1872c5;
+	color:#a5d4ff;
+	/*height: 140px;*/
+	padding: 47px 0;
+
+	img{
+		cursor: pointer;
+	}
+
+	.daire{
+	 width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    line-height: 44px;
+    background: #084884;
+    text-align: center;
+float: left;
+
+
+i{
+
+    font-size: 28px;
+    line-height: 39px;
+    color: white;
+    padding: 0 8px;
+}
+
+	}
+
+.spanlar{
+
+	span{	padding-left: 15px;
+	float: left;
+	&:hover{
+		color:white;
+		cursor: pointer;
+	}
+}
+.spanlar:nth-child(2){
+color:#a5d4ff;
+
+}
+
+
+	}
+
+}
+
+
+#navbar{
+	background: blue;
+	border-top:1px solid white;
+	background: #1872c5;
+	/*position: fixed;
+*/ul{
+	margin:0;
+	padding: 20px 0px;
+	margin-bottom: 15px;
+
+	li{
+	list-style-type:none; 
+	color: white;
+	float:left; 
+	cursor: pointer;
+
+
+	/*    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;*/
+	a{
+		text-decoration:none;
+		font-size: 16px;
+    	font-weight: 700;
+    	line-height: 1.2;
+        transition: .33s all ease-out;
+        color: white;
+        margin-right: 90px;
+        
+        
+        
+     
+        &:hover{
+		color:#a5d4ff;
+		cursor: pointer;
+
+	}
+	}
+	.first{
+		color:#a5d4ff;
+	}
+
+}
+}
+}
+
+
+
+
+
+
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#slider{
+	height: 420px;
+	.firstImage, .secondImage, .thirdImage{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		img{
+			width: 100%;
+		}
+		.slideText{
+			width: 712px;
+			height: 300px;
+			position: absolute;
+			top: 30px;
+			left: 110px;
+		p{
+			position: absolute;
+			font-weight: bold;
+			z-index: 5;
+			font-size: 55px;
+			line-height: 1.2;
+		}
+		span{
+			position: absolute;
+			font-style: italic;
+			z-index: 5;
+			font-size: 25px;
+			top: 175px;
+			color: #777;
+		}
+		button{
+			position: absolute;
+			z-index: 5;
+			top: 270px;
+			background: #42a4ff;
+			border-radius: 50px;
+			padding: 15px 35px;
+			text-transform: uppercase;
+			font-weight: bold;
+			border:none;
+		
+		&:hover{
+			background: #1872c5;
+			transition: .7s ease;
+		}
+		}
+		.dots{
+			width: 100px;
+			height: 30px;
+			position: absolute;
+			z-index: 5;
+			top: 350px;
+			.dotFirst, .dotSecond, .dotThird{
+				width: 12px;
+				height: 12px;
+				margin: 5px;
+				display: inline-block;
+				border-radius: 100%;
+				background: #777;
+				cursor: pointer;
+				&:visited{
+					background: #42a4ff;
+				}
+			}
+
+		}
+
+		}
+	}
+
+}
